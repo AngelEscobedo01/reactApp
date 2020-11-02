@@ -1,0 +1,35 @@
+.homeContainer {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* width: 80%; */
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.homeFooter {
+  display: flex;
+  /* justify-content: space-between;
+  align-content: space-between; */
+  padding-top: 20px;
+  background-color:  rgb(144, 165, 146);
+  height: auto;
+  color: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+} */

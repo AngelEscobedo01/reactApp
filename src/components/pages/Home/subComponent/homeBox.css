@@ -1,0 +1,35 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: block;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: antiquewhite;
+    max-height: 600px;
+  }
+
+  .card-text {
+      padding: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .container {
+    /* padding: 2px 16px; */
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    width: 98vw;
+  }
+  .image {
+    border-radius: 8px;
+    height: 220px;
+
+    /* float: left; */
+
+    width: 100%;
+    max-width: 160px;
+  }

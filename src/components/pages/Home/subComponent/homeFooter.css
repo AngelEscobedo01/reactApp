@@ -1,0 +1,16 @@
+.container-f {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100vw;
+    height: 500px;
+    /* max-height: 50px; */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.column {
+    height: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
